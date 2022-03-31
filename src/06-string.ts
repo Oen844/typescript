@@ -11,6 +11,7 @@
   title: ${productTitle}
   description: ${productDescription},
   Summary ${productTitle}`;
+  console.log('summary', summary);
 
 
 })()
