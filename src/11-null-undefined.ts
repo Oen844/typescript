@@ -33,5 +33,7 @@
 
     hi2('John');
     hi2(myNull);
+    const rta2 = 1 + '1';
+    console.log(typeof rta2);
 
 })();
