@@ -6,10 +6,10 @@
     stock: number,
     size?: Sizes | undefined,
   }
+  type Sizes = 'S' | 'M' | 'L' | 'XL' | 'XXL';
 
   const products: Product[] = [];
 
-  type Sizes = 'S' | 'M' | 'L' | 'XL' | 'XXL';
   const addProduct = (data: Product) => {
     products.push(data);
     console.log('products', products);
@@ -32,7 +32,7 @@
 
     products.push(product2);
     console.log('products', products);
-  
+
 
 
 
